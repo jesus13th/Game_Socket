@@ -21,7 +21,7 @@ var config = {
     this.load.image('ship', '../assets/spaceShips_001.png');
     }
   function create() {
-    let waitingText = this.add.text(400, 300, "Esperando otros jugadores...").setOrigin(0.5);
+    let waitingText = this.add.text(400, 300, "Mensaje de prueba").setOrigin(0.5);
     
     /*socket.on("connect", ()=>{console.log("connect");})
     socket.on('currentPlayers', (players)=> {
