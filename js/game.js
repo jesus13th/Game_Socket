@@ -21,8 +21,9 @@ var config = {
     this.load.image('ship', '../assets/spaceShips_001.png');
     }
   function create() {
-    /*socket.on("connect", ()=>{console.log("connect");})
     let waitingText = this.add.text(400, 300, "Esperando otros jugadores...").setOrigin(0.5);
+    
+    /*socket.on("connect", ()=>{console.log("connect");})
     socket.on('currentPlayers', (players)=> {
         Object.keys(players).forEach((id)=>{
             waitingText.setActive(false).setVisible(false);
