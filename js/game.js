@@ -72,7 +72,7 @@ var config = {
           this.ship.setAcceleration(0);
         }
       
-        //console.log(this.physics.world)//.wrap(this.ship);
+        this.physics.world.wrap(this.ship, 5);
 
         var x = this.ship.x;
         var y = this.ship.y;
