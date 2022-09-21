@@ -54,7 +54,7 @@ var config = {
         });
       });
     this.cursors = this.input.keyboard.createCursorKeys();
-    console.log(this.physics.world)
+    console.log(process.env.PHASER_APP_TEST)
   }
   function update(){
     if (this.ship) {
